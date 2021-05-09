@@ -1,9 +1,9 @@
 ;---------------------------------------------------
-; Programa: Subtração
-; Descrição: c <- a - b
+; Programa: Subtracao
+; Descricao: c <- a - b
 ;---------------------------------------------------
 
-; Obtém -b em complemento de 2
+; Obtem -b em complemento de 2
    lda b                    ; 
    not                      ; 
    add um                   ; -b
@@ -13,8 +13,8 @@
    sta c                    ; c <- (a - b)
    hlt                      ; para o processador
 
-; Definição de variáveis
-org 80h             ; Indica o endereço de início da área de dados
+; Definicao de variaveis
+org 80h             ; Indica o endereco de inicio da are de dados
    a:   db 1
    b:   db 10
    c:   db 0

@@ -1,9 +1,0 @@
-.code
-
-.endcode
-
-
-
-.data
-
-.enddata
